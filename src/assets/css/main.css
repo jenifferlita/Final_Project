@@ -172,6 +172,12 @@ div#bs-example-navbar-collapse-1 {
     text-align: center;
     text-decoration: none !important;
 }
+.collapse.navbar-collapse {
+    padding-bottom: 16px; /* Mengatur jarak padding ke bawah */
+    position: relative; /* Menjadikan posisi relatif */
+    top: -16px; /* Menurunkan posisi 50px */
+}
+
 .navbar-brand{
     font-family: 'Pacifico', cursive;
     font-size: 34px !important;
