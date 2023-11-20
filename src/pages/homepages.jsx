@@ -39,8 +39,8 @@ const HomePages = () => {
         </section> */}
         <section id="top" className="description_content">
             <div className="pricing background_content">
-            <h1>U-Canteen</h1>
-            </div>
+                <a className="judul-utama" href="#">U-Canteen</a>
+                </div>
             <div className="text-content container"> 
             </div>  
         </section>
