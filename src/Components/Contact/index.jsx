@@ -3,7 +3,7 @@ const Contact = () => {
     <section id="contact">
       <div className="map">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5973451401605!2d124.98139947436563!3d1.4175081613559013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32870a95df6309dd%3A0x21d86e4847556add!2sUniversitas%20Klabat!5e0!3m2!1sen!2sid!4v1700485434709!5m2!1sen!2sid"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5967026912313!2d124.9801809743656!3d1.4178810613546615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32870fb08562b233%3A0x39f6f555cdb6eeab!2sStudent%20Canteen%20Universitas%20Klabat!5e0!3m2!1sen!2sid!4v1700488405365!5m2!1sen!2sid"
           width="100%"
           height={450}
           frameBorder={0}
