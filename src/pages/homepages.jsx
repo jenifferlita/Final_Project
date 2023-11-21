@@ -4,7 +4,7 @@ const HomePages = () => {
   return (
     <div>
       <nav className="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div className="container">
+        <div className="container"> 
           <div className="row">
             {/* Brand and toggle get grouped for better mobile display */}
             <div className="navbar-header">
