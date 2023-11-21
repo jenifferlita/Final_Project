@@ -4,7 +4,7 @@ const HomePages = () => {
   return (
     <div>
       <nav className="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div className="container">
+        <div className="container"> 
           <div className="row">
             {/* Brand and toggle get grouped for better mobile display */}
             <div className="navbar-header">
@@ -75,13 +75,14 @@ const HomePages = () => {
             </div>
             </div>
         </section> */}
-      <section id="top" className="description_content">
-        <div className="pricing background_content">
-          <h1>U-Canteen</h1>
-        </div>
-        <div className="text-content container"></div>
-      </section>
 
+        <section id="top" className="description_content">
+            <div className="pricing background_content">
+                <a className="judul-utama" href="#">U-Canteen</a>
+                </div>
+            <div className="text-content container"> 
+            </div>  
+        </section>
       {/* ============ About Us ============= */}
       <section id="story" className="description_content">
         <div className="text-content container">
