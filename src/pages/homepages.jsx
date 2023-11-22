@@ -1,10 +1,11 @@
 import Contact from "../Components/Contact";
+import Hours from "../Components/Hours";
 
 const HomePages = () => {
   return (
     <div>
       <nav className="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div className="container">
+        <div className="container"> 
           <div className="row">
             {/* Brand and toggle get grouped for better mobile display */}
             <div className="navbar-header">
@@ -343,18 +344,7 @@ const HomePages = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-xs-12">
-                      {/* Message */}
-                      <div className="right-text">
-                        <h2>Hours</h2>
-                        <hr />
-                        <p>Monday to Friday: 7:30 AM - 11:30 AM</p>
-                        <p>Saturday &amp; Sunday: 8:00 AM - 9:00 AM</p>
-                        <p>Monday to Friday: 12:00 PM - 5:00 PM</p>
-                        <p>Monday to Saturday: 6:00 PM - 1:00 AM</p>
-                        <p>Sunday to Monday: 5:30 PM - 12:00 AM</p>
-                      </div>
-                    </div>
+                      <Hours />
                   </div>
                 </div>
                 {/* Clear */}
