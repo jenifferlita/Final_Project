@@ -4,7 +4,7 @@ const Pricing = () => {
     <section id="pricing" className="description_content">
     <div className="pricing background_content">
       <h1>
-        <span>Affordable</span> pricing
+        <a className="judul-pricing">Harga Terjangkau</a>
       </h1>
     </div>
     <div className="text-content container">
