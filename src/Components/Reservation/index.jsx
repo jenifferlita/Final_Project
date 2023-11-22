@@ -2,7 +2,7 @@ const Reservation = () => {
   return (
     <section id="reservation" className="description_content">
       <div className="featured background_content">
-        <h1>Pesan Makanan Anda!</h1>
+        <a className="judul-reservation">Pesan Makanan Anda!</a>
       </div>
       <div className="text-content container">
         <div className="inner contact">
@@ -61,7 +61,7 @@ const Reservation = () => {
                   <div className="col-lg-4 col-md-6 col-xs-12">
                     {/*message*/}
                     <div className="right-text">
-                      <h2>Jam</h2>
+                      <h2>Jam Buka</h2>
                       <hr />
                       <p>Senin : 8:00 AM - 6:00 PM</p>
                       <p>Selasa: 8:00 AM - 6:00 PM</p>
