@@ -25,7 +25,7 @@ const Pricing = () => {
                 Desert
               </li>
               <li className="filter" data-filter="dinner">
-                Dinner
+                Drink
               </li>
             </ul>
             {/* @end #filter-list */}
