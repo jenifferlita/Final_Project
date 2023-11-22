@@ -1,10 +1,6 @@
 import Contact from "../Components/Contact";
-<<<<<<< HEAD
-import Hours from "../Components/Hours";
 import Pricing from "../Components/Pricing/pricing";
-=======
 import Reservation from "../Components/Reservation";
->>>>>>> 966d806e70cad4779bfba442f9a6abd156ea44e2
 
 const HomePages = () => {
   return (
@@ -81,8 +77,6 @@ const HomePages = () => {
             </div>
             </div>
         </section> */}
-
-<<<<<<< HEAD
         <section id="top" className="description_content">
             <div className="pricing background_content">
                 <a className="judul-utama" href="#">U-Canteen</a>
@@ -91,16 +85,6 @@ const HomePages = () => {
             </div>  
         </section>
         
-=======
-      <section id="top" className="description_content">
-        <div className="pricing background_content">
-          <a className="judul-utama" href="#">
-            U-Canteen
-          </a>
-        </div>
-        <div className="text-content container"></div>
-      </section>
->>>>>>> 966d806e70cad4779bfba442f9a6abd156ea44e2
       {/* ============ About Us ============= */}
       <section id="story" className="description_content">
         <div className="text-content container">
