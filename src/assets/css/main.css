@@ -257,6 +257,12 @@ div#bs-example-navbar-collapse-1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Buat efek bayangan pada font */
   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5); /* Tambahkan border pada font */
 }
+
+.pemesanan {
+  color: white;
+  font-size: 20px;
+}
+
 nav {
   background: #1e1e1e !important;
   font-size: 18px;
