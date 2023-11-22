@@ -83,6 +83,7 @@ const HomePages = () => {
             <div className="text-content container"> 
             </div>  
         </section>
+        
       {/* ============ About Us ============= */}
       <section id="story" className="description_content">
         <div className="text-content container">
