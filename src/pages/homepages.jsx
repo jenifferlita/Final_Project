@@ -1,12 +1,16 @@
 import Contact from "../Components/Contact";
+<<<<<<< HEAD
 import Hours from "../Components/Hours";
 import Pricing from "../Components/Pricing/pricing";
+=======
+import Reservation from "../Components/Reservation";
+>>>>>>> 966d806e70cad4779bfba442f9a6abd156ea44e2
 
 const HomePages = () => {
   return (
     <div>
       <nav className="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div className="container"> 
+        <div className="container">
           <div className="row">
             {/* Brand and toggle get grouped for better mobile display */}
             <div className="navbar-header">
@@ -78,6 +82,7 @@ const HomePages = () => {
             </div>
         </section> */}
 
+<<<<<<< HEAD
         <section id="top" className="description_content">
             <div className="pricing background_content">
                 <a className="judul-utama" href="#">U-Canteen</a>
@@ -86,6 +91,16 @@ const HomePages = () => {
             </div>  
         </section>
         
+=======
+      <section id="top" className="description_content">
+        <div className="pricing background_content">
+          <a className="judul-utama" href="#">
+            U-Canteen
+          </a>
+        </div>
+        <div className="text-content container"></div>
+      </section>
+>>>>>>> 966d806e70cad4779bfba442f9a6abd156ea44e2
       {/* ============ About Us ============= */}
       <section id="story" className="description_content">
         <div className="text-content container">
@@ -179,116 +194,7 @@ const HomePages = () => {
       </section>
 
       {/* ============ Reservation  ============= */}
-      <section id="reservation" className="description_content">
-        <div className="featured background_content">
-          <h1>Reserve a Table!</h1>
-        </div>
-        <div className="text-content container">
-          <div className="inner contact">
-            {/* Form Area */}
-            <div className="contact-form">
-              {/* Form */}
-              <form id="contact-us" method="post" action="reserve.php">
-                {/* Left Inputs */}
-                <div className="container">
-                  <div className="row">
-                    <div className="col-lg-8 col-md-6 col-xs-12">
-                      <div className="row">
-                        <div className="col-lg-6 col-md-6 col-xs-6">
-                          {/* Name */}
-                          <input
-                            type="text"
-                            name="first_name"
-                            id="first_name"
-                            required="required"
-                            className="form"
-                            placeholder="First Name"
-                          />
-                          <input
-                            type="text"
-                            name="last_name"
-                            id="last_name"
-                            required="required"
-                            className="form"
-                            placeholder="Last Name"
-                          />
-                          <input
-                            type="text"
-                            name="state"
-                            id="state"
-                            required="required"
-                            className="form"
-                            placeholder="State"
-                          />
-                          <input
-                            type="text"
-                            name="datepicker"
-                            id="datepicker"
-                            required="required"
-                            className="form"
-                            placeholder="Reservation Date"
-                          />
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-xs-6">
-                          {/* Name */}
-                          <input
-                            type="text"
-                            name="phone"
-                            id="phone"
-                            required="required"
-                            className="form"
-                            placeholder="Phone"
-                          />
-                          <input
-                            type="text"
-                            name="guest"
-                            id="guest"
-                            required="required"
-                            className="form"
-                            placeholder="Guest Number"
-                          />
-                          <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            required="required"
-                            className="form"
-                            placeholder="Email"
-                          />
-                          <input
-                            type="text"
-                            name="subject"
-                            id="subject"
-                            required="required"
-                            className="form"
-                            placeholder="Subject"
-                          />
-                        </div>
-                        <div className="col-xs-6 ">
-                          {/* Send Button */}
-                          <button
-                            type="submit"
-                            id="submit"
-                            name="submit"
-                            className="text-center form-btn form-btn"
-                          >
-                            Reserve
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                      <Hours />
-                  </div>
-                </div>
-                {/* Clear */}
-                <div className="clear" />
-              </form>
-            </div>
-            {/* End Contact Form Area */}
-          </div>
-          {/* End Inner */}
-        </div>
-      </section>
+      <Reservation />
 
       {/* ============ Social Section  ============= */}
       <section className="social_connect">
