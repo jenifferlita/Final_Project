@@ -31,11 +31,11 @@ const Pricing = () => {
             {/* @end #filter-list */}
             <ul id="portfolio">
               <li className="item breakfast">
-                <img src="images/food_icon01.jpg" alt="Food" />
+                <img src="/images/AyamGeprek.png" alt="Food" />
                 <h2 className="white">$20</h2>
               </li>
               <li className="item dinner special">
-                <img src="images/food_icon02.jpg" alt="Food" />
+                <img src="/images/TempePenyet.png" alt="Food" />
                 <h2 className="white">$20</h2>
               </li>
               <li className="item dinner breakfast">
