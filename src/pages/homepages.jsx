@@ -9,45 +9,6 @@ const HomePages = () => {
   return (
     <div>
       <Navigation />
-
-            <div
-              className="collapse navbar-collapse"
-              id="bs-example-navbar-collapse-1"
-            >
-              <ul className="nav navbar-nav main-nav  clear navbar-right ">
-                <li>
-                  <a className="navactive color_animation" href="#top">
-                    WELCOME
-                  </a>
-                </li>
-                <li>
-                  <a className="color_animation" href="#story">
-                    ABOUT
-                  </a>
-                </li>
-                <li>
-                  <a className="color_animation" href="#pricing">
-                    MENU
-                  </a>
-                </li>
-                <li>
-                  <a className="color_animation" href="#featured">
-                    FEATURED
-                  </a>
-                </li>
-                <li>
-                  <a className="color_animation" href="#reservation">
-                    RESERVATION
-                  </a>
-                </li>
-                <li>
-                  <a className="color_animation" href="#contact">
-                    CONTACT
-                  </a>
-                </li>
-              </ul>
-
-            </div>
       <section id="top" className="description_content">
         <div className="kantin background_content">
           <a className="judul-utama" href="#">
