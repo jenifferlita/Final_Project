@@ -13,8 +13,7 @@ const Footer = () => {
         <div className="col-md-4">
           <p className="sub-footer-text text-center">
             Built With Care By{" "}
-            <a href="https://www.unklab.ac.id/fasilitas/">Us</a>
-
+            <a href="https://www.unklab.ac.id/fasilitas/">FE-Grup</a>
           </p>
         </div>
       </div>
