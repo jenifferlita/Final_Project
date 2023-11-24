@@ -38,7 +38,7 @@ const Navigation = () => {
               </li>
               <li>
                 <a className="color_animation" href="#pricing">
-                  Menu
+                  MENU
                 </a>
               </li>
               <li>
