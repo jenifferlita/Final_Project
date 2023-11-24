@@ -151,9 +151,13 @@ const Pricing = () => {
                 <h2 className="white" href="#reservation">Goroho Tepung</h2>
               </li>
               <li className="item desert">
-                <img src="/images/GorohoStick.png" alt="Food" />
-                <h2 className="white">10k</h2>
-                <h2 className="white" href="#reservation">Goroho Stick</h2>
+              <img src="/images/GorohoStick.png" alt="Food" />
+              <h2 className="white">10k</h2>
+              <h2 className="white">
+                  <a href="#reservation" onClick={() => this.handleMenuClick('Goroho Stick')}>
+                    Goroho Stick
+                  </a>
+              </h2>
               </li>
             
             </ul>
