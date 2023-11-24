@@ -7,9 +7,9 @@ const AboutUs = () => {
         <div className="fa fa-cutlery fa-2x" />
         <p className="desc-text">
          U-Canteen adalah bentuk digital dengan inovasi terkini dari 
-         kantin Universitas Klabat.U-Canteen menghadirkan pemesanan
-         dan pembayaran yang lebih mudah dan modern di kampus.Dengan
-         U-Canteen,mahasiswa dan staff dapat menikmati proses transaksi
+         kantin Universitas Klabat. U-Canteen menghadirkan pemesanan
+         dan pembayaran yang lebih mudah dan modern di kampus. Dengan
+         U-Canteen, mahasiswa dan staff dapat menikmati proses transaksi
          dan pemesanan yang lebih praktis dan tanpa antrian.
         </p>
       </div>
