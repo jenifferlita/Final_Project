@@ -68,15 +68,6 @@ const HomePages = () => {
         </div>
         {/* /.container-fluid */}
       </nav>
-      {/* <section id="top" className="starter_container bg">
-            <div className="follow_container">
-            <div className="col-md-6 col-md-offset-3">
-                <h2 className="top-title"> Restaurant</h2>
-                <h2 className="white second-title">" Best in the city "</h2>
-                <hr />
-            </div>
-            </div>
-        </section> */}
         <section id="top" className="description_content">
             <div className="pricing background_content">
                 <a className="judul-utama" href="#">U-Canteen</a>
