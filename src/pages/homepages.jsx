@@ -130,7 +130,7 @@ const HomePages = () => {
                 {/* Wrapper for slides */}
                 <div className="carousel-inner">
                   <div className="item active">
-                    <img src="images/slider1.jpg" alt="..." />
+                    <img src="/public/images/AyamGeprek.png" alt="..." />
                     <div className="carousel-caption"></div>
                   </div>
                   <div className="item">
