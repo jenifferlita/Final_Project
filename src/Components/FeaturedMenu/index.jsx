@@ -44,15 +44,15 @@ const FeaturedMenu = () => {
         </ol>
         {/* Wrapper for slides */}
         <div className="carousel-inner">
-          <div className="item active">
+          <div className="size item active">
             <img src="public\images\TInutuan.png" alt="..." />
             <div className="carousel-caption"></div>
           </div>
-          <div className="item">
+          <div className="size item">
             <img src="public\images\AyamGeprek.png" alt="..." />
             <div className="carousel-caption"></div>
           </div>
-          <div className="item">
+          <div className="size item">
             <img src="images/NasiCampurAyam.png" alt="..." />
             <div className="carousel-caption"></div>
           </div>
