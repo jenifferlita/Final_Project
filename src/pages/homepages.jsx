@@ -1,32 +1,15 @@
 import Contact from "../Components/Contact";
+import FeaturedMenu from "../Components/FeaturedMenu";
 import Pricing from "../Components/Pricing";
 import Footer from "../Components/Footer";
 import Reservation from "../Components/Reservation";
+import Navigation from "../Components/Navigation";
 
 const HomePages = () => {
   return (
     <div>
-      <nav className="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div className="container">
-          <div className="row">
-            {/* Brand and toggle get grouped for better mobile display */}
-            <div className="navbar-header">
-              <button
-                type="button"
-                className="navbar-toggle collapsed"
-                data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1"
-              >
-                <span className="sr-only">Toggle navigation</span>
-                <span className="icon-bar" />
-                <span className="icon-bar" />
-                <span className="icon-bar" />
-              </button>
-              <a className="navbar-brand" href="#">
-                Universitas Klabat
-              </a>
-            </div>
-            {/* Collect the nav links, forms, and other content for toggling */}
+      <Navigation />
+
             <div
               className="collapse navbar-collapse"
               id="bs-example-navbar-collapse-1"
@@ -44,7 +27,7 @@ const HomePages = () => {
                 </li>
                 <li>
                   <a className="color_animation" href="#pricing">
-                    PRICING
+                    MENU
                   </a>
                 </li>
                 <li>
@@ -63,20 +46,16 @@ const HomePages = () => {
                   </a>
                 </li>
               </ul>
+
             </div>
-            {/* /.navbar-collapse */}
-          </div>
+      <section id="top" className="description_content">
+        <div className="kantin background_content">
+          <a className="judul-utama" href="#">
+            U-Canteen
+          </a>
         </div>
-        {/* /.container-fluid */}
-      </nav>
-        <section id="top" className="description_content">
-            <div className="pricing background_content">
-                <a className="judul-utama" href="#">U-Canteen</a>
-                </div>
-            <div className="text-content container"> 
-            </div>  
-        </section>
-   
+        <div className="text-content container"></div>
+      </section>
 
       {/* ============ About Us ============= */}
       <section id="story" className="description_content">
@@ -106,70 +85,12 @@ const HomePages = () => {
       </section>
 
       {/* ============ Pricing  ============= */}
-      <Pricing />
+      <Pricing/>
 
       {/* ============ Featured Dish  ============= */}
-      <section id="featured" className="description_content">
-        <div className="featured background_content">
-          <h1>
-            Our Featured Dishes <span>Menu</span>
-          </h1>
-        </div>
-        <div className="text-content container">
-          <div className="col-md-6">
-            <h1>Have a look to our dishes!</h1>
-            <div className="icon-hotdog fa-2x" />
-            <p className="desc-text">
-              Each food is handmade at the crack of dawn, using only the
-              simplest of ingredients to bring out smells and flavors that
-              beckon the whole block. Stop by anytime and experience simplicity
-              at its finest.
-            </p>
-          </div>
-          <div className="col-md-6">
-            <ul className="image_box_story2">
-              <div
-                id="carousel-example-generic"
-                className="carousel slide"
-                data-ride="carousel"
-              >
-                {/* Indicators */}
-                <ol className="carousel-indicators">
-                  <li
-                    data-target="#carousel-example-generic"
-                    data-slide-to={0}
-                    className="active"
-                  />
-                  <li
-                    data-target="#carousel-example-generic"
-                    data-slide-to={1}
-                  />
-                  <li
-                    data-target="#carousel-example-generic"
-                    data-slide-to={2}
-                  />
-                </ol>
-                {/* Wrapper for slides */}
-                <div className="carousel-inner">
-                  <div className="item active">
-                    <img src="images/slider1.jpg" alt="..." />
-                    <div className="carousel-caption"></div>
-                  </div>
-                  <div className="item">
-                    <img src="images/slider2.jpg" alt="..." />
-                    <div className="carousel-caption"></div>
-                  </div>
-                  <div className="item">
-                    <img src="images/slider3.JPG" alt="..." />
-                    <div className="carousel-caption"></div>
-                  </div>
-                </div>
-              </div>
-            </ul>
-          </div>
-        </div>
-      </section>
 
+     <FeaturedMenu />
+  
       {/* ============ Reservation  ============= */}
       <Reservation />
 
