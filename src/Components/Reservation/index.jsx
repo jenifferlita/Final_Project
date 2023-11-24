@@ -1,4 +1,12 @@
+import { useState } from "react";
+
 const Reservation = () => {
+  const [paymentMethod, setPaymentMethod] = useState("");
+
+  const handlePaymentChange = (e) => {
+    setPaymentMethod(e.target.value);
+  };
+
   return (
     <section id="reservation" className="description_content">
       <div className="featured background_content">
@@ -6,17 +14,14 @@ const Reservation = () => {
       </div>
       <div className="text-content container">
         <div className="inner contact">
-          {/* Form Area */}
           <div className="contact-form">
-            {/* Form */}
             <form id="contact-us" method="post" action="reserve.php">
-              {/* Left Inputs */}
               <div className="container">
                 <div className="row">
                   <div className="col-lg-8 col-md-6 col-xs-12">
                     <div className="row">
+                      {/* Name and Contact Inputs */}
                       <div className="col-lg-6 col-md-6 col-xs-6">
-                        {/* Name */}
                         <input
                           type="text"
                           name="nama_lengkap"
@@ -35,7 +40,6 @@ const Reservation = () => {
                         />
                       </div>
                       <div className="col-lg-6 col-md-6 col-xs-6">
-                        {/* Name */}
                         <input
                           type="text"
                           name="alamat"
@@ -45,21 +49,57 @@ const Reservation = () => {
                           placeholder="Alamat"
                         />
                       </div>
+
+                      {/* Payment Method Selection */}
+                      <div className="row">
+                        <div className="col-lg-6 col-md-6 col-xs-12">
+                          <select
+                            id="payment-method"
+                            name="payment_method"
+                            className="form"
+                            required="required"
+                            value={paymentMethod}
+                            onChange={handlePaymentChange}
+                          >
+                            <option value="">Pilih Metode Pembayaran</option>
+                            <option value="bank_transfer">Transfer Bank</option>
+                            <option value="cash">Cash</option>
+                          </select>
+                        </div>
+
+                        {/* Upload Bukti Transfer */}
+                        {paymentMethod === "bank_transfer" && (
+                          <div className="col-lg-6 col-md-6 col-xs-6">
+                            <label htmlFor="bukti-transfer">
+                              Unggah Bukti Transfer:
+                            </label>
+                            <input
+                              type="file"
+                              name="bukti_transfer"
+                              id="bukti-transfer"
+                              className="form"
+                              required={paymentMethod === "bank_transfer"}
+                            />
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Submit Button */}
                       <div className="col-xs-6 ">
-                        {/* Send Button */}
                         <button
                           type="submit"
                           id="submit"
                           name="submit"
                           className="text-center form-btn form-btn"
                         >
-                          Pesan Sekaran
+                          Pesan Sekarang
                         </button>
                       </div>
                     </div>
                   </div>
+
+                  {/* Business Hours Info */}
                   <div className="col-lg-4 col-md-6 col-xs-12">
-                    {/*message*/}
                     <div className="right-text">
                       <h2>Jam Buka</h2>
                       <hr />
@@ -72,13 +112,10 @@ const Reservation = () => {
                   </div>
                 </div>
               </div>
-              {/* Clear */}
               <div className="clear" />
             </form>
           </div>
-          {/* End Contact Form Area */}
         </div>
-        {/* End Inner */}
       </div>
     </section>
   );
