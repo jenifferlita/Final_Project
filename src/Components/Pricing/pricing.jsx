@@ -22,7 +22,7 @@ const Pricing = () => {
                 Special
               </li>
               <li className="filter" data-filter="desert">
-                Desert
+                Snack
               </li>
               <li className="filter" data-filter="dinner">
                 Drink
@@ -50,7 +50,7 @@ const Pricing = () => {
                 <h2 className="white">20k</h2>
                 <h2 className="white" href="#reservation">Nasi Campur Ayam</h2>
               </li>
-
+              <br />
               <li className="item dinner">
                 <img src="/images/NasiGorengRoa.png" alt="Food" />
                 <h2 className="white">20k</h2>
@@ -71,7 +71,7 @@ const Pricing = () => {
                 <h2 className="white">15k</h2>
                 <h2 className="white" href="#reservation">Miedal</h2>
               </li>
-
+              <br />
               <li className="item dinner">
                 <img src="/images/TInutuan.png" alt="Food" />
                 <h2 className="white">15k</h2>
@@ -81,6 +81,46 @@ const Pricing = () => {
                 <img src="/images/MieCakalang.png" alt="Food" />
                 <h2 className="white">15k</h2>
                 <h2 className="white" href="#reservation">Mie Cakalang</h2>
+              </li>
+              <li className="item dinner drink">
+                <img src="/images/Milo.png" alt="Food" />
+                <h2 className="white">10k</h2>
+                <h2 className="white" href="#reservation">Milo</h2>
+              </li>
+              <li className="item dinner drink">
+                <img src="/images/Chocolatos.png" alt="Food" />
+                <h2 className="white">10k</h2>
+                <h2 className="white" href="#reservation">Chocolatos</h2>
+              </li>
+              <li className="item dinner drink">
+                <img src="/images/Benbeng.png" alt="Food" />
+                <h2 className="white">10k</h2>
+                <h2 className="white" href="#reservation">Bengbeng drink</h2>
+              </li>
+              <li className="item dinner drink">
+                <img src="/images/JerukNipis.png" alt="Food" />
+                <h2 className="white">10k</h2>
+                <h2 className="white" href="#reservation">Jeruk Nipis</h2>
+              </li>
+              <li className="item dinner drink">
+                <img src="/images/Saraba.png" alt="Food" />
+                <h2 className="white">10k</h2>
+                <h2 className="white" href="#reservation">Saraba</h2>
+              </li>
+              <li className="item dinner drink">
+                <img src="/images/Nutrisari.png" alt="Food" />
+                <h2 className="white">5k</h2>
+                <h2 className="white" href="#reservation">Nutrisari</h2>
+              </li>
+              <li className="item dinner drink">
+                <img src="/images/Popice.png" alt="Food" />
+                <h2 className="white">6k</h2>
+                <h2 className="white" href="#reservation">Pop Ice</h2>
+              </li>
+              <li className="item dinner drink">
+                <img src="/images/Aqua.png" alt="Food" />
+                <h2 className="white">5k</h2>
+                <h2 className="white" href="#reservation">Air Mineral</h2>
               </li>
               <li className="item desert">
                 <img src="images/food_icon07.jpg" alt="Food" />
