@@ -1,5 +1,5 @@
 import Contact from "../Components/Contact";
-import Pricing from "../Components/Pricing/pricing";
+import Pricing from "../Components/Pricing";
 import Reservation from "../Components/Reservation";
 
 const HomePages = () => {
@@ -43,7 +43,7 @@ const HomePages = () => {
                 </li>
                 <li>
                   <a className="color_animation" href="#pricing">
-                    PRICING
+                    MENU
                   </a>
                 </li>
                 <li>
