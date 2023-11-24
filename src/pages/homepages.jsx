@@ -8,6 +8,7 @@ const HomePages = () => {
   return (
     <div>
       <Navigation />
+
             <div
               className="collapse navbar-collapse"
               id="bs-example-navbar-collapse-1"
