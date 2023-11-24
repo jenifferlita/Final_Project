@@ -45,15 +45,15 @@ const FeaturedMenu = () => {
         {/* Wrapper for slides */}
         <div className="carousel-inner">
           <div className="item active">
-            <img src="images/slider1.jpg" alt="..." />
+            <img src="images/AyamGeprek.png" alt="..." />
             <div className="carousel-caption"></div>
           </div>
           <div className="item">
-            <img src="images/slider2.jpg" alt="..." />
+            <img src="images/Tinutuan.png" alt="..." />
             <div className="carousel-caption"></div>
           </div>
           <div className="item">
-            <img src="images/slider3.JPG" alt="..." />
+            <img src="images/NasiCampurAyam.png" alt="..." />
             <div className="carousel-caption"></div>
           </div>
         </div>
