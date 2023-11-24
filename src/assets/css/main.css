@@ -365,8 +365,20 @@ INTRO CONTAINER
   background-position: center;
   background-attachment: fixed;
 }
+.kantin.background_content {
+  background: url("../images/kantin.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.canteen.background_content {
+  background: url("../images/canteen.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 .pricing.background_content {
-  background: url("../images/pricing.jpg") no-repeat center center;
+  background: url("../images/harga.jpg") no-repeat center center;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
