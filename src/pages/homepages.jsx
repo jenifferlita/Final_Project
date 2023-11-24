@@ -44,7 +44,7 @@ const HomePages = () => {
                 </li>
                 <li>
                   <a className="color_animation" href="#pricing">
-                    MENU
+                    PRICING
                   </a>
                 </li>
                 <li>
@@ -76,7 +76,7 @@ const HomePages = () => {
             <div className="text-content container"> 
             </div>  
         </section>
-      
+   
 
       {/* ============ About Us ============= */}
       <section id="story" className="description_content">

@@ -9,7 +9,7 @@ const Reservation = () => {
 
   return (
     <section id="reservation" className="description_content">
-      <div className="featured background_content">
+      <div className="canteen background_content">
         <a className="judul-reservation">Pesan Makanan Anda!</a>
       </div>
       <div className="text-content container">
