@@ -86,9 +86,9 @@ const HomePages = () => {
             <div className="fa fa-cutlery fa-2x" />
             <p className="desc-text">
               Restaurant is a place for simplicity. Good food, good beer, and
-              good service. Simple is the name of the game, and we’re good at
+              good service. Simple is the name of the game, and we're good at
               finding it in all the right places, even in your dining
-              experience. We’re a small group from Denver, Colorado who make
+              experience. We're a small group from Denver, Colorado who make
               simple food possible. Come join us and see what simplicity tastes
               like.
             </p>
