@@ -15,11 +15,11 @@ const AboutUs = () => {
       </div>
       <div className="col-md-6">
         <div className="img-section">
-          <img src="images/kabob.jpg" width={250} height={220} />
-          <img src="images/limes.jpg" width={250} height={220} />
+          <img src="images/aboncakalang.jpg" width={250} height={220} />
+          <img src="images/ayamgeprek.jpg" width={250} height={220} />
           <div className="img-section-space" />
-          <img src="images/radish.jpg" width={250} height={220} />
-          <img src="images/corn.jpg" width={250} height={220} />
+          <img src="images/kepalmilo.jpg" width={250} height={220} />
+          <img src="images/miecakalang.jpg" width={250} height={220} />
         </div>
       </div>
     </div>
