@@ -1,5 +1,6 @@
 import Contact from "../Components/Contact";
-import Pricing from "../Components/Pricing";
+import Footer from "../Components/Footer";
+import Pricing from "../Components/Pricing/pricing";
 import Reservation from "../Components/Reservation";
 
 const HomePages = () => {
@@ -43,7 +44,7 @@ const HomePages = () => {
                 </li>
                 <li>
                   <a className="color_animation" href="#pricing">
-                    MENU
+                    PRICING
                   </a>
                 </li>
                 <li>
@@ -68,14 +69,24 @@ const HomePages = () => {
         </div>
         {/* /.container-fluid */}
       </nav>
-        <section id="top" className="description_content">
-            <div className="pricing background_content">
-                <a className="judul-utama" href="#">U-Canteen</a>
-                </div>
-            <div className="text-content container"> 
-            </div>  
-        </section>
-        
+      {/* <section id="top" className="starter_container bg">
+            <div className="follow_container">
+            <div className="col-md-6 col-md-offset-3">
+                <h2 className="top-title"> Restaurant</h2>
+                <h2 className="white second-title">" Best in the city "</h2>
+                <hr />
+            </div>
+            </div>
+        </section> */}
+      <section id="top" className="description_content">
+        <div className="kantin background_content">
+          <a className="judul-utama" href="#">
+            U-Canteen
+          </a>
+        </div>
+        <div className="text-content container"></div>
+      </section>
+
       {/* ============ About Us ============= */}
       <section id="story" className="description_content">
         <div className="text-content container">
@@ -104,7 +115,7 @@ const HomePages = () => {
       </section>
 
       {/* ============ Pricing  ============= */}
-      <Pricing/>
+      <Pricing />
 
       {/* ============ Featured Dish  ============= */}
       <section id="featured" className="description_content">
@@ -218,29 +229,7 @@ const HomePages = () => {
       <Contact />
 
       {/* ============ Footer Section  ============= */}
-      <footer className="sub_footer">
-        <div className="container">
-          <div className="col-md-4">
-            <p className="sub-footer-text text-center">
-              © Restaurant 2014, Theme by{" "}
-              <a href="https://themewagon.com/">ThemeWagon</a>
-            </p>
-          </div>
-          <div className="col-md-4">
-            <p className="sub-footer-text text-center">
-              Back to <a href="#top">TOP</a>
-            </p>
-          </div>
-          <div className="col-md-4">
-            <p className="sub-footer-text text-center">
-              Built With Care By{" "}
-              <a href="#" target="_blank">
-                Us
-              </a>
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
