@@ -2,31 +2,12 @@ import Contact from "../Components/Contact";
 import Pricing from "../Components/Pricing";
 import Footer from "../Components/Footer";
 import Reservation from "../Components/Reservation";
+import Navigation from "../Components/Navigation";
 
 const HomePages = () => {
   return (
     <div>
-      <nav className="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div className="container">
-          <div className="row">
-            {/* Brand and toggle get grouped for better mobile display */}
-            <div className="navbar-header">
-              <button
-                type="button"
-                className="navbar-toggle collapsed"
-                data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1"
-              >
-                <span className="sr-only">Toggle navigation</span>
-                <span className="icon-bar" />
-                <span className="icon-bar" />
-                <span className="icon-bar" />
-              </button>
-              <a className="navbar-brand" href="#">
-                Universitas Klabat
-              </a>
-            </div>
-            {/* Collect the nav links, forms, and other content for toggling */}
+      <Navigation />
             <div
               className="collapse navbar-collapse"
               id="bs-example-navbar-collapse-1"
@@ -63,20 +44,16 @@ const HomePages = () => {
                   </a>
                 </li>
               </ul>
+
             </div>
-            {/* /.navbar-collapse */}
-          </div>
+      <section id="top" className="description_content">
+        <div className="kantin background_content">
+          <a className="judul-utama" href="#">
+            U-Canteen
+          </a>
         </div>
-        {/* /.container-fluid */}
-      </nav>
-        <section id="top" className="description_content">
-            <div className="pricing background_content">
-                <a className="judul-utama" href="#">U-Canteen</a>
-                </div>
-            <div className="text-content container"> 
-            </div>  
-        </section>
-   
+        <div className="text-content container"></div>
+      </section>
 
       {/* ============ About Us ============= */}
       <section id="story" className="description_content">
