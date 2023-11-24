@@ -1,5 +1,6 @@
 import Contact from "../Components/Contact";
-import Pricing from "../Components/Pricing";
+import FeaturedMenu from "../Components/FeaturedMenu";
+import Pricing from "../Components/Pricing/pricing";
 import Footer from "../Components/Footer";
 import Reservation from "../Components/Reservation";
 import Navigation from "../Components/Navigation";
@@ -87,67 +88,8 @@ const HomePages = () => {
       <Pricing />
 
       {/* ============ Featured Dish  ============= */}
-      <section id="featured" className="description_content">
-        <div className="featured background_content">
-          <h1>
-            Our Featured Dishes <span>Menu</span>
-          </h1>
-        </div>
-        <div className="text-content container">
-          <div className="col-md-6">
-            <h1>Have a look to our dishes!</h1>
-            <div className="icon-hotdog fa-2x" />
-            <p className="desc-text">
-              Each food is handmade at the crack of dawn, using only the
-              simplest of ingredients to bring out smells and flavors that
-              beckon the whole block. Stop by anytime and experience simplicity
-              at its finest.
-            </p>
-          </div>
-          <div className="col-md-6">
-            <ul className="image_box_story2">
-              <div
-                id="carousel-example-generic"
-                className="carousel slide"
-                data-ride="carousel"
-              >
-                {/* Indicators */}
-                <ol className="carousel-indicators">
-                  <li
-                    data-target="#carousel-example-generic"
-                    data-slide-to={0}
-                    className="active"
-                  />
-                  <li
-                    data-target="#carousel-example-generic"
-                    data-slide-to={1}
-                  />
-                  <li
-                    data-target="#carousel-example-generic"
-                    data-slide-to={2}
-                  />
-                </ol>
-                {/* Wrapper for slides */}
-                <div className="carousel-inner">
-                  <div className="item active">
-                    <img src="images/slider1.jpg" alt="..." />
-                    <div className="carousel-caption"></div>
-                  </div>
-                  <div className="item">
-                    <img src="images/slider2.jpg" alt="..." />
-                    <div className="carousel-caption"></div>
-                  </div>
-                  <div className="item">
-                    <img src="images/slider3.JPG" alt="..." />
-                    <div className="carousel-caption"></div>
-                  </div>
-                </div>
-              </div>
-            </ul>
-          </div>
-        </div>
-      </section>
-
+     <FeaturedMenu />
+     
       {/* ============ Reservation  ============= */}
       <Reservation />
 
