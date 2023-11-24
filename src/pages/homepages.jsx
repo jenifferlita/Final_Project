@@ -1,6 +1,6 @@
 import Contact from "../Components/Contact";
+import Pricing from "../Components/Pricing";
 import Footer from "../Components/Footer";
-import Pricing from "../Components/Pricing/pricing";
 import Reservation from "../Components/Reservation";
 
 const HomePages = () => {
@@ -69,6 +69,7 @@ const HomePages = () => {
         </div>
         {/* /.container-fluid */}
       </nav>
+<<<<<<< HEAD
       {/* <section id="top" className="starter_container bg">
             <div className="follow_container">
             <div className="col-md-6 col-md-offset-3">
@@ -86,6 +87,16 @@ const HomePages = () => {
         </div>
         <div className="text-content container"></div>
       </section>
+=======
+        <section id="top" className="description_content">
+            <div className="pricing background_content">
+                <a className="judul-utama" href="#">U-Canteen</a>
+                </div>
+            <div className="text-content container"> 
+            </div>  
+        </section>
+   
+>>>>>>> 7f0f55bac952b08614fefda1d93c0ddb84fb69c8
 
       {/* ============ About Us ============= */}
       <section id="story" className="description_content">
