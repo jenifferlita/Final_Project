@@ -1,5 +1,7 @@
 import Contact from "../Components/Contact";
 import FeaturedMenu from "../Components/FeaturedMenu";
+import Pricing from "../Components/Pricing/pricing";
+import Reservation from "../Components/Reservation";
 
 const HomePages = () => {
   return (
@@ -76,13 +78,14 @@ const HomePages = () => {
             </div>
             </div>
         </section> */}
-      <section id="top" className="description_content">
-        <div className="pricing background_content">
-          <h1>U-Canteen</h1>
-        </div>
-        <div className="text-content container"></div>
-      </section>
-
+        <section id="top" className="description_content">
+            <div className="pricing background_content">
+                <a className="judul-utama" href="#">U-Canteen</a>
+                </div>
+            <div className="text-content container"> 
+            </div>  
+        </section>
+        
       {/* ============ About Us ============= */}
       <section id="story" className="description_content">
         <div className="text-content container">
@@ -111,201 +114,13 @@ const HomePages = () => {
       </section>
 
       {/* ============ Pricing  ============= */}
-      <section id="pricing" className="description_content">
-        <div className="pricing background_content">
-          <h1>
-            <span>Affordable</span> pricing
-          </h1>
-        </div>
-        <div className="text-content container">
-          <div className="container">
-            <div className="row">
-              <div id="w">
-                <ul id="filter-list" className="clearfix">
-                  <li className="filter" data-filter="all">
-                    All
-                  </li>
-                  <li className="filter" data-filter="breakfast">
-                    Breakfast
-                  </li>
-                  <li className="filter" data-filter="special">
-                    Special
-                  </li>
-                  <li className="filter" data-filter="desert">
-                    Desert
-                  </li>
-                  <li className="filter" data-filter="dinner">
-                    Dinner
-                  </li>
-                </ul>
-                {/* @end #filter-list */}
-                <ul id="portfolio">
-                  <li className="item breakfast">
-                    <img src="images/food_icon01.jpg" alt="Food" />
-                    <h2 className="white">$20</h2>
-                  </li>
-                  <li className="item dinner special">
-                    <img src="images/food_icon02.jpg" alt="Food" />
-                    <h2 className="white">$20</h2>
-                  </li>
-                  <li className="item dinner breakfast">
-                    <img src="images/food_icon03.jpg" alt="Food" />
-                    <h2 className="white">$18</h2>
-                  </li>
-                  <li className="item special">
-                    <img src="images/food_icon04.jpg" alt="Food" />
-                    <h2 className="white">$15</h2>
-                  </li>
-                  <li className="item dinner">
-                    <img src="images/food_icon05.jpg" alt="Food" />
-                    <h2 className="white">$20</h2>
-                  </li>
-                  <li className="item special">
-                    <img src="images/food_icon06.jpg" alt="Food" />
-                    <h2 className="white">$22</h2>
-                  </li>
-                  <li className="item desert">
-                    <img src="images/food_icon07.jpg" alt="Food" />
-                    <h2 className="white">$32</h2>
-                  </li>
-                  <li className="item desert breakfast">
-                    <img src="images/food_icon08.jpg" alt="Food" />
-                    <h2 className="white">$38</h2>
-                  </li>
-                </ul>
-                {/* @end #portfolio */}
-              </div>
-              {/* @end #w */}
-            </div>
-          </div>
-        </div>
-      </section>
+      <Pricing/>
 
       {/* ============ Featured Dish  ============= */}
      <FeaturedMenu />
      
       {/* ============ Reservation  ============= */}
-      <section id="reservation" className="description_content">
-        <div className="featured background_content">
-          <h1>Reserve a Table!</h1>
-        </div>
-        <div className="text-content container">
-          <div className="inner contact">
-            {/* Form Area */}
-            <div className="contact-form">
-              {/* Form */}
-              <form id="contact-us" method="post" action="reserve.php">
-                {/* Left Inputs */}
-                <div className="container">
-                  <div className="row">
-                    <div className="col-lg-8 col-md-6 col-xs-12">
-                      <div className="row">
-                        <div className="col-lg-6 col-md-6 col-xs-6">
-                          {/* Name */}
-                          <input
-                            type="text"
-                            name="first_name"
-                            id="first_name"
-                            required="required"
-                            className="form"
-                            placeholder="First Name"
-                          />
-                          <input
-                            type="text"
-                            name="last_name"
-                            id="last_name"
-                            required="required"
-                            className="form"
-                            placeholder="Last Name"
-                          />
-                          <input
-                            type="text"
-                            name="state"
-                            id="state"
-                            required="required"
-                            className="form"
-                            placeholder="State"
-                          />
-                          <input
-                            type="text"
-                            name="datepicker"
-                            id="datepicker"
-                            required="required"
-                            className="form"
-                            placeholder="Reservation Date"
-                          />
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-xs-6">
-                          {/* Name */}
-                          <input
-                            type="text"
-                            name="phone"
-                            id="phone"
-                            required="required"
-                            className="form"
-                            placeholder="Phone"
-                          />
-                          <input
-                            type="text"
-                            name="guest"
-                            id="guest"
-                            required="required"
-                            className="form"
-                            placeholder="Guest Number"
-                          />
-                          <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            required="required"
-                            className="form"
-                            placeholder="Email"
-                          />
-                          <input
-                            type="text"
-                            name="subject"
-                            id="subject"
-                            required="required"
-                            className="form"
-                            placeholder="Subject"
-                          />
-                        </div>
-                        <div className="col-xs-6 ">
-                          {/* Send Button */}
-                          <button
-                            type="submit"
-                            id="submit"
-                            name="submit"
-                            className="text-center form-btn form-btn"
-                          >
-                            Reserve
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-xs-12">
-                      {/* Message */}
-                      <div className="right-text">
-                        <h2>Hours</h2>
-                        <hr />
-                        <p>Monday to Friday: 7:30 AM - 11:30 AM</p>
-                        <p>Saturday &amp; Sunday: 8:00 AM - 9:00 AM</p>
-                        <p>Monday to Friday: 12:00 PM - 5:00 PM</p>
-                        <p>Monday to Saturday: 6:00 PM - 1:00 AM</p>
-                        <p>Sunday to Monday: 5:30 PM - 12:00 AM</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* Clear */}
-                <div className="clear" />
-              </form>
-            </div>
-            {/* End Contact Form Area */}
-          </div>
-          {/* End Inner */}
-        </div>
-      </section>
+      <Reservation />
 
       {/* ============ Social Section  ============= */}
       <section className="social_connect">
