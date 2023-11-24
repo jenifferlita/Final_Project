@@ -79,7 +79,7 @@ const HomePages = () => {
             </div>
         </section> */}
       <section id="top" className="description_content">
-        <div className="pricing background_content">
+        <div className="kantin background_content">
           <a className="judul-utama" href="#">
             U-Canteen
           </a>
