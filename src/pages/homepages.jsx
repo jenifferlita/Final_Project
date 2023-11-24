@@ -5,33 +5,17 @@ import Pricing from "../Components/Pricing";
 import Footer from "../Components/Footer";
 import Reservation from "../Components/Reservation";
 import Navigation from "../Components/Navigation";
+import Judul from "../Components/JudulBesar";
 
 const HomePages = () => {
   return (
     <div>
       <Navigation />
-      <section id="top" className="description_content">
-        <div className="kantin background_content">
-          <a className="judul-utama" href="#">
-            U-Canteen
-          </a>
-        </div>
-        <div className="text-content container"></div>
-      </section>
-
-      {/* ============ About Us ============= */}
-     <AboutUs />
-
-      {/* ============ Pricing  ============= */}
+      <Judul/>
+      <AboutUs />
       <Pricing/>
-
-      {/* ============ Featured Dish  ============= */}
-
-     <FeaturedMenu />
-  
-      {/* ============ Reservation  ============= */}
+      <FeaturedMenu />
       <Reservation />
-
       {/* ============ Social Section  ============= */}
       <section className="social_connect">
         <div className="text-content container">
@@ -74,11 +58,7 @@ const HomePages = () => {
           </div>
         </div>
       </section>
-
-      {/* ============ Contact Section  ============= */}
       <Contact />
-
-      {/* ============ Footer Section  ============= */}
       <Footer />
     </div>
   );
