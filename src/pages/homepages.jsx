@@ -1,7 +1,6 @@
 import Contact from "../Components/Contact";
 import FeaturedMenu from "../Components/FeaturedMenu";
 import Pricing from "../Components/Pricing/pricing";
-import Pricing from "../Components/Pricing";
 import Footer from "../Components/Footer";
 import Reservation from "../Components/Reservation";
 import Navigation from "../Components/Navigation";
