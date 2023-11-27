@@ -271,7 +271,7 @@ div#bs-example-navbar-collapse-1 {
   display: block;
   margin: 10px;
   width: 200px;
-  height: 380px;
+  height: 400px;
   width: 100%;
   padding: 20px;
   border: 1px solid #e8e8e8;
@@ -294,6 +294,7 @@ div#bs-example-navbar-collapse-1 {
 .item h2 {
   font-size: 15px;
   margin: 5px 0;
+  color: white;
 }
 
 .item .white {
@@ -446,7 +447,7 @@ INTRO CONTAINER
   background-attachment: fixed;
 }
 .pricing.background_content {
-  background: url("../images/harga.jpg") no-repeat center center;
+  background: url("../images/bg_pricing.png") no-repeat center center;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
