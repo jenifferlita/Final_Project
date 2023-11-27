@@ -47,7 +47,7 @@ const FeaturedMenu = () => {
                   <div className="carousel-caption"></div>
                 </div>
                 <div className="size item">
-                  <img src="images/NasiCampurAyam.png" alt="..." />
+                  <img src="public\images\NasiCamputIkan.png" alt="..." />
                   <div className="carousel-caption"></div>
                 </div>
               </div>
