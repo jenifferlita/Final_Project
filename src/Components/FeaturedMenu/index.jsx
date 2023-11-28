@@ -4,6 +4,7 @@ import { getDatabase, ref, child, get } from "firebase/database";
 const FeaturedMenu = () => {
   const [title, setTitle] = useState("");
   const [subTitle, setSubTitle] = useState("");
+  const [judul, setJudul] = useState("");
 
   useEffect(() => {
     const dbRef = ref(getDatabase());
@@ -14,6 +15,7 @@ const FeaturedMenu = () => {
           const data = snapshot.val();
           setTitle(data.title);
           setSubTitle(data.subTitle);
+          setJudul(data.judul);
         } else {
           console.log("No data available");
         }
@@ -26,7 +28,7 @@ const FeaturedMenu = () => {
   return (
     <section id="featured" className="description_content">
       <div className="pricing background_content">
-        <a className="judul-reservation">Menu Andalan Kami</a>
+        <a className="judul-reservation">{judul}</a>
       </div>
       <div className="text-content container">
         <div className="col-md-6">

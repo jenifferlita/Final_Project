@@ -1,16 +1,34 @@
-import { useState } from "react";
-
+import { useEffect, useState } from "react";
+import { getDatabase, ref, child, get } from "firebase/database";
 const Reservation = () => {
   const [paymentMethod, setPaymentMethod] = useState("");
+  const [title, setTitle] = useState("");
 
   const handlePaymentChange = (e) => {
     setPaymentMethod(e.target.value);
   };
 
+  useEffect(() => {
+    const dbRef = ref(getDatabase());
+
+    get(child(dbRef, `Reservation`))
+      .then((snapshot) => {
+        if (snapshot.exists()) {
+          const data = snapshot.val();
+          setTitle(data.title);
+        } else {
+          console.log("No data available");
+        }
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }, []);
+
   return (
     <section id="reservation" className="description_content">
       <div className="canteen background_content">
-        <a className="judul-reservation">Pesan Makanan Anda!</a>
+        <a className="judul-reservation">{title}</a>
       </div>
       <div className="text-content container">
         <div className="inner contact">
@@ -71,7 +89,7 @@ const Reservation = () => {
                         {paymentMethod === "bank_transfer" && (
                           <div className="col-lg-6 col-md-6 col-xs-6">
                             <label htmlFor="bukti-transfer">
-                              Unggah Bukti Transfer:
+                              Unggah Bukti Transfer
                             </label>
                             <input
                               type="file"
