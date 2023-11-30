@@ -1,9 +1,31 @@
+import { useEffect, useState } from "react";
+import { getDatabase, ref, child, get } from "firebase/database";
+
 const Pricing = () => {
+  const [title, setTitle] = useState("");
+
+  useEffect(() => {
+    const dbRef = ref(getDatabase());
+
+    get(child(dbRef, `price`))
+      .then((snapshot) => {
+        if (snapshot.exists()) {
+          const data = snapshot.val();
+          setTitle(data.title);
+        } else {
+          console.log("No data available");
+        }
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }, []);
+
   return (
     <section id="pricing" className="description_content">
       <div className="pricing background_content">
         <h1>
-          <a className="judul-pricing">Harga Terjangkau</a>
+          <a className="judul-pricing">{title}</a>
         </h1>
       </div>
       <div className="text-content container">
