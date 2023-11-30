@@ -729,6 +729,7 @@ h1 {
 }
 .navbar-default {
   border: 0 !important;
+  
 }
 
 /*========================
@@ -782,16 +783,20 @@ MEDIA QUERIES TABLET
   .navbar-default {
     height: 70px;
     padding-top: 10px;
+    background-color: #0a5175;
   }
 
   nav li {
     padding-right: -15px;
   }
+  .red-background {
+    background-color: red;
+  }
   .navbar-brand {
     font-family: "Pacifico", cursive;
     font-size: 34px !important;
     text-decoration: none;
-    color: white !important;
+    color: #f1b81c !important;
   }
   nav {
     position: fixed;
@@ -802,7 +807,7 @@ MEDIA QUERIES TABLET
     z-index: 100;
     margin: 0;
     padding: 0;
-    background-color: #1e1e1e;
+    background-color: #aa050c;
     text-align: center;
   }
   .logo {

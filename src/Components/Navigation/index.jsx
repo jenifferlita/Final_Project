@@ -1,6 +1,6 @@
 const Navigation = () => {
   return (
-    <nav className="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav className="navbar navbar-default navbar-fixed-top "  role="navigation">
       <div className="container">
         <div className="row">
           {/* Brand and toggle get grouped for better mobile display */}
