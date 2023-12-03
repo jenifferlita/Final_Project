@@ -70,7 +70,7 @@ const Reservation = () => {
 
                       {/* Payment Method Selection */}
                       <div className="row">
-                        <div className="col-lg-6 col-md-6 col-xs-12">
+                        <div className="col-lg-6 col-md-6 col-xs-6">
                           <select
                             id="payment-method"
                             name="payment_method"

@@ -8,14 +8,13 @@ import Navigation from "../Components/Navigation";
 import SocialSection from "../Components/SocialSection";
 import Judul from "../Components/JudulBesar";
 
-
 const HomePages = () => {
   return (
     <div>
       <Navigation />
-      <Judul/>
+      <Judul />
       <AboutUs />
-      <Pricing/>
+      <Pricing />
       <FeaturedMenu />
       <Reservation />
       <SocialSection />
